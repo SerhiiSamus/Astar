@@ -1,0 +1,11 @@
+            <svg
+              viewBox="0 0 24.00 24.00"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#c02026"
+              class="services-icon"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <circle cx="12" cy="12" r="6"></circle>
+              <circle cx="12" cy="12" r="2"></circle>
+            </svg>

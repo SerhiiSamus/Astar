@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="request.css" />
+    <title>Request</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="container">
+          <div class="burger-menu">
+            <span class="line line1"></span>
+            <span class="line line1"></span>
+            <span class="line line1"></span>
+          </div>
+          <nav class="nav show-nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="nav-link" href="main.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="careers.html">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="request.html">Request</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacts">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="request">
+        <div class="request-content">
+          <h1 class="request-title">Have more questions ?</h1>
+          <p class="request-text">
+            The professional team of our managers will help you to chose the
+            optimal route for the transportation of your cargo and will
+            calculate the cost of transportation and delivery time.
+          </p>
+        </div>
+        <div class="request-container">
+          <form action="#" method="post" class="request-form">
+            <div class="request-form-about">
+              <legend class="request-form-title">Request calculation</legend>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Full name"
+                required=""
+                class="input"
+              />
+              <input
+                type="text"
+                name="Number"
+                placeholder="Phone number"
+                required=""
+                class="input"
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Email"
+                required=""
+                class="input"
+              />
+              <input
+                type="text"
+                name="Company"
+                placeholder="Company name"
+                required=""
+                class="input"
+              />
+            </div>
+            <div class="request-form-address">
+              <div class="address-shiping">
+                <legend class="request-form-title">Shipping address</legend>
+                <select class="input select-input">
+                  <option>Select country</option>
+                  <option>Argentina</option>
+                  <option>Georgia</option>
+                  <option>Dominica</option>
+                  <option>Lithuania</option>
+                  <option>Monaco</option>
+                </select>
+                <input
+                  type="text"
+                  name="address-detail"
+                  placeholder="City / Postal code"
+                  required=""
+                  class="input"
+                />
+              </div>
+              <div class="address-destination">
+                <legend class="request-form-title">Destination address</legend>
+                <select class="input">
+                  <option>Select country</option>
+                  <option>Argentina</option>
+                  <option>Georgia</option>
+                  <option>Dominica</option>
+                  <option>Lithuania</option>
+                  <option>Monaco</option>
+                </select>
+                <input
+                  type="text"
+                  name="address-detail"
+                  placeholder="City / Postal code"
+                  required=""
+                  class="input"
+                />
+              </div>
+            </div>
+            <div class="request-form-additionally">
+              <input
+                type="text"
+                name="freight"
+                placeholder="Freight"
+                required=""
+                class="input"
+              />
+              <textarea
+                name="message"
+                placeholder="Street address"
+                class="input request-comment"
+              ></textarea>
+            </div>
+            <button class="btn request-btn" type="submit">Send Request</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-section" id="Contacts">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-about">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4879.136405420933!2d21.00965048563333!3d52.30569127759962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ec9383aee4c6b%3A0x9c63aecf1b4967ba!2zT2RsZXduaWN6YSA1LCAwMy0yMzEgV2Fyc3phd2EsINCf0L7Qu9GM0YnQsA!5e0!3m2!1suk!2sua!4v1708587916344!5m2!1suk!2sua"
+                width="60%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="footer-information">
+              <h5 class="footer-section-title">Information</h5>
+              <ul>
+                <li class="footer-list-item">
+                  <a class="footer-list-link" href="about.html">About us</a>
+                </li>
+                <li class="footer-list-item">
+                  <a class="footer-list-link" href="services.html">Services</a>
+                </li>
+                <li class="footer-list-item">
+                  <a class="footer-list-link" href="careers.html">Careers</a>
+                </li>
+                <li class="footer-list-item">
+                  <a class="footer-list-link" href="request.html">Request</a>
+                </li>
+                <li class="footer-list-item">
+                  <a class="footer-list-link" href="#Contacts">Contacts</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-contacts">
+              <h5 class="footer-section-title">Contact us</h5>
+              <span class="footer-location"
+                >Washington, USA 6036 Richmond, <br />
+                hwy., Alexandria, VA, 2233</span
+              >
+              <span class="footer-phone"
+                >Phone
+                <a class="footer-phone-link" href="#">+1(409)987 5874</a></span
+              >
+              <a class="footer-mail-link" href="#">info@demolink.org</a>
+              <h5 class="footer-section-title">Social Media</h5>
+              <span class="footer-social">View our social media profiles</span>
+              <ul class="social-list">
+                <li class="social-list-item">
+                  <svg
+                    fill="#ffffff"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="-51.2 -51.2 614.40 614.40"
+                    xml:space="preserve"
+                    transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+                    stroke="#ffffff"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <g id="7935ec95c421cee6d86eb22ecd11b7e3">
+                        <path
+                          style="display: inline"
+                          d="M283.122,122.174c0,5.24,0,22.319,0,46.583h83.424l-9.045,74.367h-74.379 c0,114.688,0,268.375,0,268.375h-98.726c0,0,0-151.653,0-268.375h-51.443v-74.367h51.443c0-29.492,0-50.463,0-56.302 c0-27.82-2.096-41.02,9.725-62.578C205.948,28.32,239.308-0.174,297.007,0.512c57.713,0.711,82.04,6.263,82.04,6.263 l-12.501,79.257c0,0-36.853-9.731-54.942-6.263C293.539,83.238,283.122,94.366,283.122,122.174z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </li>
+                <li class="social-list-item">
+                  <svg
+                    viewBox="0 -2 20 20"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="#ffffff"
+                    stroke="#ffffff"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <title>twitter [#ffffff]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g
+                        id="Page-1"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          id="Dribbble-Light-Preview"
+                          transform="translate(-60.000000, -7521.000000)"
+                          fill="#ffffff"
+                        >
+                          <g
+                            id="icons"
+                            transform="translate(56.000000, 160.000000)"
+                          >
+                            <path
+                              d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705"
+                              id="twitter-[#ffffff]"
+                            ></path>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </li>
+                <li class="social-list-item">
+                  <svg
+                    fill="#ffffff"
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 93.06 93.06"
+                    xml:space="preserve"
+                    stroke="#ffffff"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <g>
+                        <g>
+                          <path
+                            d="M11.185,0.08C5.004,0.08,0.001,5.092,0,11.259c0,6.173,5.003,11.184,11.186,11.184c6.166,0,11.176-5.011,11.176-11.184 C22.362,5.091,17.351,0.08,11.185,0.08z"
+                          ></path>
+                          <rect
+                            x="1.538"
+                            y="30.926"
+                            width="19.287"
+                            height="62.054"
+                          ></rect>
+                          <path
+                            d="M69.925,29.383c-9.382,0-15.673,5.144-18.248,10.022h-0.258v-8.479H32.921H32.92v62.053h19.27V62.281 c0-8.093,1.541-15.932,11.575-15.932c9.89,0,10.022,9.256,10.022,16.451v30.178H93.06V58.942 C93.06,42.235,89.455,29.383,69.925,29.383z"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </li>
+                <li class="social-list-item">
+                  <svg
+                    viewBox="0 0 20 20"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="#ffffff"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <title>instagram [#ffffff]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g
+                        id="Page-1"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          id="Dribbble-Light-Preview"
+                          transform="translate(-340.000000, -7439.000000)"
+                          fill="#ffffff"
+                        >
+                          <g
+                            id="icons"
+                            transform="translate(56.000000, 160.000000)"
+                          >
+                            <path
+                              d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                              id="instagram-[#ffffff]"
+                            ></path>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="burger.js"></script>
+  </body>
+</html>
