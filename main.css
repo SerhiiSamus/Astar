@@ -701,6 +701,11 @@ h5 {
 .footer-location {
   width: 100%;
 }
+.footer-map {
+  width: 60%;
+  height: 300px;
+  margin-bottom: 40px;
+}
 .footer-information {
   padding-left: 50px;
   flex: 1 1 0;
@@ -1030,5 +1035,8 @@ h5 {
   }
   .footer-contacts {
     padding-left: 30px;
+  }
+  .footer-map {
+    width: 100%;
   }
 }
