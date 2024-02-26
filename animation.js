@@ -278,13 +278,13 @@ if (window.innerWidth > 650) {
     delay: 4,
     duration: 1.8,
   });
-  gsap.to('.svg-gob', {
-    scrollTrigger: {
-      trigger: '.job-content',
-      start: 'top center',
-    },
-    strokeDashoffset: 0,
-    stroke: 'black',
-    duration: 5,
-  });
+  // gsap.to('.svg-gob', {
+  //   scrollTrigger: {
+  //     trigger: '.job-content',
+  //     start: 'top center',
+  //   },
+  //   strokeDashoffset: 0,
+  //   stroke: 'black',
+  //   duration: 5,
+  // });
 }
