@@ -144,7 +144,9 @@ h5 {
 }
 .nav-link {
   position: relative;
-  font-weight: 600;
+  font-family: 'ultra-system-sans', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
   font-style: normal;
   font-size: 16px;
   color: #1c6030;
