@@ -402,9 +402,10 @@ h5 {
 .about-counters {
   display: flex;
   flex-wrap: wrap;
+  gap: 15px;
 }
 .counter-item {
-  width: 50%;
+  width: calc(50% - 30px);
   display: flex;
   flex-direction: column;
 }

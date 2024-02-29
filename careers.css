@@ -234,9 +234,10 @@ h5 {
 }
 .careers-content {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   row-gap: 20px;
+  justify-content: center;
 }
 .careers-benefits-title {
   font-size: 30px;
@@ -248,11 +249,12 @@ h5 {
   position: relative;
   text-align: center;
   text-transform: capitalize;
+  width: 100%;
 }
 .career-benefits {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 50%;
 }
 .benefits-icon {
   width: 80px;
@@ -459,7 +461,7 @@ h5 {
   height: 20px;
   list-style: none;
 }
-@media screen and (max-width: 879px) {
+@media screen and (max-width: 1200px) {
   .nav-link {
     font-size: 14px;
   }
@@ -541,6 +543,9 @@ h5 {
     height: 400px;
     background-position: bottom;
     background-size: 80vw;
+  }
+  .career-benefits {
+    width: 100%;
   }
   .job-img-container {
     display: none;
