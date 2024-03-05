@@ -78,6 +78,7 @@ h5 {
   padding: 10px;
   align-items: center;
   transition: 0.5s ease;
+  z-index: 1000;
 }
 .thankyou-message-text {
   color: #fefefe;
