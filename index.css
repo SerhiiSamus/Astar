@@ -744,14 +744,15 @@ h5 {
 .footer-about {
   display: flex;
   justify-content: center;
-  flex: 2 1 0;
+  flex: 3 1 0;
   margin-right: 30px;
+  justify-content: space-between;
 }
 .footer-location {
   width: 100%;
 }
 .footer-map {
-  width: 60%;
+  width: 48%;
   height: 300px;
   margin-bottom: 40px;
 }
@@ -815,8 +816,8 @@ h5 {
 .footer-mail-link {
   text-decoration: none;
   font-weight: 400;
-  color: #c02026;
-  font-size: 16px;
+  color: white;
+  font-size: 18px;
 }
 .footer-social {
   font-weight: 400;
@@ -1091,5 +1092,8 @@ h5 {
   }
   .footer-map {
     width: 100%;
+  }
+  .footer-about {
+    flex-direction: column;
   }
 }

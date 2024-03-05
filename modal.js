@@ -2,7 +2,6 @@ const callBtn = document.querySelector('.call-us-btn');
 const contactBtn = document.querySelector('.consultation-btn');
 const closeModalBtn = document.querySelector('.modal-close-btn');
 const modalBg = document.querySelector('.modal-bg');
-const modalFormBtn = document.querySelector('.modal-form-btn');
 
 callBtn.addEventListener('click', () => {
   modalBg.classList.add('visible');
@@ -21,9 +20,4 @@ modalBg.addEventListener('click', (event) => {
     modalBg.classList.remove('visible');
     document.body.classList.remove('modal-open');
   }
-});
-
-modalFormBtn.addEventListener('click', () => {
-  modalBg.classList.remove('visible');
-  document.body.classList.remove('modal-open');
 });
