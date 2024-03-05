@@ -68,6 +68,7 @@
                 name="name"
                 placeholder="Full name *"
                 class="input"
+                required
               />
               <input
                 type="text"
@@ -80,12 +81,14 @@
                 name="email"
                 placeholder="Email *"
                 class="input"
+                required
               />
               <input
                 type="text"
                 name="company"
-                placeholder="Company name"
+                placeholder="Company name *"
                 class="input"
+                required
               />
             </div>
             <div class="request-form-address">
@@ -94,14 +97,16 @@
                 <input
                   type="text"
                   name="shipping-country"
-                  placeholder="Country"
+                  placeholder="Country *"
                   class="input"
+                  required
                 />
                 <input
                   type="text"
                   name="shipping-city"
-                  placeholder="City / Postal code"
+                  placeholder="City / Postal code *"
                   class="input"
+                  required
                 />
               </div>
               <div class="address-destination">
@@ -109,14 +114,15 @@
                 <input
                   type="text"
                   name="destination-country"
-                  placeholder="Country"
+                  placeholder="Country *"
                   class="input"
+                  required
                 />
                 <input
                   type="text"
                   name="destination-city"
-                  placeholder="City / Postal code"
-                  required=""
+                  placeholder="City / Postal code *"
+                  required
                   class="input"
                 />
               </div>
@@ -125,13 +131,15 @@
               <input
                 type="text"
                 name="freight"
-                placeholder="Freight"
+                placeholder="Freight *"
                 class="input"
+                required
               />
               <textarea
                 name="about-transportation"
-                placeholder="About transportation"
+                placeholder="About transportation *"
                 class="input request-comment"
+                required
               ></textarea>
             </div>
             <button class="btn request-btn" type="submit">Send Request</button>
