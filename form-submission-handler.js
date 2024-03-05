@@ -1,20 +1,4 @@
 (function () {
-  // function validEmail(email) {
-  //   var re =
-  //     /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-  //   return re.test(email);
-  // }
-
-  // function validateHuman(honeypot) {
-  //   if (honeypot) {
-  //     //if hidden form filled up
-  //     console.log('Robot Detected!');
-  //     return true;
-  //   } else {
-  //     console.log('Welcome Human!');
-  //   }
-  // }
-
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
@@ -77,38 +61,19 @@
     }
     */
 
-    // if (data.email && !validEmail(data.email)) {
-    //   // if email is not valid show error
-    //   var invalidEmail = form.querySelector('.email-invalid');
-    //   if (invalidEmail) {
-    //     invalidEmail.style.display = 'block';
-    //     return false;
-    //   }
-    // }
     var url = form.action;
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);
     // xhr.withCredentials = true;
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    // xhr.onreadystatechange = function () {
-    //   form.reset();
-    //   var thankYouMessage = document.querySelector('.thankyou-message');
-    //   if (thankYouMessage) {
-    //     console.log(thankYouMessage.style.top);
-    //     thankYouMessage.style.top = '50px';
-    //     setTimeout(function () {
-    //       thankYouMessage.style.top = '-100%';
-    //     }, 3000);
-    //   }
-    //   return;
-    // };
+
     xhr.onreadystatechange = function () {
       if (xhr.readyState === XMLHttpRequest.DONE) {
         form.reset();
         var thankYouMessage = document.querySelector('.thankyou-message');
         if (thankYouMessage) {
           console.log(thankYouMessage.style.top);
-          thankYouMessage.style.top = '50px';
+          thankYouMessage.style.top = '75px';
           setTimeout(function () {
             thankYouMessage.style.top = '-100%';
           }, 3000);

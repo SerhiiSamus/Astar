@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="request.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/logo/logo1.svg"
+      type="image/x-icon"
+    />
     <title>Request</title>
   </head>
   <body>
@@ -18,7 +23,7 @@
           <nav class="nav show-nav">
             <ul class="nav-list">
               <li class="nav-item">
-                <a class="nav-link" href="main.html">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About us</a>
@@ -51,70 +56,65 @@
           </p>
         </div>
         <div class="request-container">
-          <form action="#" method="post" class="request-form">
+          <form
+            action="https://script.google.com/macros/s/AKfycbytFUItkCmV1AAgR4DR7Kd1_L5uSqBFpYL6VzGn8RlqDg-kKvQrqEDBbTmAK0yXog8i/exec"
+            method="POST"
+            class="request-form gform"
+          >
             <div class="request-form-about">
               <legend class="request-form-title">Request calculation</legend>
               <input
                 type="text"
-                name="Name"
-                placeholder="Full name"
-                required=""
+                name="name"
+                placeholder="Full name *"
                 class="input"
               />
               <input
                 type="text"
-                name="Number"
+                name="phone"
                 placeholder="Phone number"
-                required=""
                 class="input"
               />
               <input
                 type="email"
-                name="Email"
-                placeholder="Email"
-                required=""
+                name="email"
+                placeholder="Email *"
                 class="input"
               />
               <input
                 type="text"
-                name="Company"
+                name="company"
                 placeholder="Company name"
-                required=""
                 class="input"
               />
             </div>
             <div class="request-form-address">
               <div class="address-shiping">
                 <legend class="request-form-title">Shipping address</legend>
-                <select class="input select-input">
-                  <option>Select country</option>
-                  <option>Argentina</option>
-                  <option>Georgia</option>
-                  <option>Dominica</option>
-                  <option>Lithuania</option>
-                  <option>Monaco</option>
-                </select>
                 <input
                   type="text"
-                  name="address-detail"
+                  name="shipping-country"
+                  placeholder="Country"
+                  class="input"
+                />
+                <input
+                  type="text"
+                  name="shipping-city"
                   placeholder="City / Postal code"
-                  required=""
                   class="input"
                 />
               </div>
               <div class="address-destination">
                 <legend class="request-form-title">Destination address</legend>
-                <select class="input">
-                  <option>Select country</option>
-                  <option>Argentina</option>
-                  <option>Georgia</option>
-                  <option>Dominica</option>
-                  <option>Lithuania</option>
-                  <option>Monaco</option>
-                </select>
                 <input
                   type="text"
-                  name="address-detail"
+                  name="destination-country"
+                  placeholder="Country"
+                  class="input"
+                />
+                <input
+                  type="text"
+                  name="destination-city"
                   placeholder="City / Postal code"
                   required=""
                   class="input"
@@ -126,17 +126,35 @@
                 type="text"
                 name="freight"
                 placeholder="Freight"
-                required=""
                 class="input"
               />
               <textarea
-                name="message"
+                name="about-transportation"
                 placeholder="About transportation"
                 class="input request-comment"
               ></textarea>
             </div>
             <button class="btn request-btn" type="submit">Send Request</button>
           </form>
+        </div>
+        <div class="thankyou-message">
+          <p class="thankyou-message-text">Thank you for feedback</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 500 500"
+            fill="#1c6030"
+            width="30px"
+          >
+            <path
+              class="st0"
+              d="M455.3,61.5C395.6,69.1,300.9,153.7,222,276c-6.1,9.4-11.9,18.8-17.4,28.1c0,0,0,0-0.1-0.1 c-0.1,0.1-0.1,0.2-0.2,0.3c-12.8-12.8-26.6-25.6-41.2-38.1c-6.8-5.8-13.6-11.4-20.3-16.9L40.2,314.2c46.9,22,87.8,48.2,119.6,75.3 c0-0.1,0.1-0.2,0.1-0.3c19.1,16.3,35,33,46.8,49.3c5.2-7.7,10.5-15.4,16-23.2c12-17.1,24.2-33.5,36.4-49.1c0,0,0.1,0.1,0.1,0.1 c81.4-104.5,162.3-173.5,200.6-170.6L455.3,61.5z"
+            ></path>
+
+            <path
+              class="st1"
+              d="M455.3,61.5C395.6,69.1,300.9,153.7,222,276c-6.1,9.4-11.9,18.8-17.4,28.1c0,0,0,0-0.1-0.1 c-0.1,0.1-0.1,0.2-0.2,0.3c-12.8-12.8-26.6-25.6-41.2-38.1c-6.8-5.8-13.6-11.4-20.3-16.9L40.2,314.2c46.9,22,87.8,48.2,119.6,75.3 c0-0.1,0.1-0.2,0.1-0.3c19.1,16.3,35,33,46.8,49.3c5.2-7.7,10.5-15.4,16-23.2c12-17.1,24.2-33.5,36.4-49.1c0,0,0.1,0.1,0.1,0.1 c81.4-104.5,162.3-173.5,200.6-170.6L455.3,61.5z"
+            ></path>
+          </svg>
         </div>
       </section>
     </main>
@@ -348,5 +366,6 @@
       </div>
     </footer>
     <script src="burger.js"></script>
+    <script src="form-submission-handler.js"></script>
   </body>
 </html>

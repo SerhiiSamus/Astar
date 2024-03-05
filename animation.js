@@ -2,7 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 //header animations
 const logo = gsap.timeline();
-if (window.innerWidth > 650) {
+if (window.innerWidth > 800) {
   logo
     .set('.logo1', {
       xPercent: 1200,
