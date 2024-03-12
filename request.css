@@ -201,6 +201,21 @@ h5 {
 .nav-link:hover::before {
   opacity: 1;
 }
+.nav-link-lang {
+  text-decoration: none;
+  color: #adadad;
+  margin-right: 10px;
+  font-weight: 600;
+}
+.nav-link-lang:hover {
+  color: #c02026;
+  font-weight: 600;
+}
+
+.active-lang {
+  color: #c02026;
+  font-weight: 600;
+}
 .input {
   width: 100%;
   box-sizing: border-box;

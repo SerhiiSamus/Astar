@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="request.css" />
+    <link rel="stylesheet" href="../about.css" />
     <link
       rel="shortcut icon"
-      href="assets/logo/logo1.svg"
+      href="../assets/logo/logo1.svg"
       type="image/x-icon"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Request</title>
+    <title>O nas</title>
   </head>
   <body>
     <header class="header">
@@ -33,151 +33,111 @@
           <nav class="nav show-nav">
             <ul class="nav-list">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.html">Strona główna</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About us</a>
+                <a class="nav-link" href="about.html">O nas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
+                <a class="nav-link" href="services.html">Usługi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="careers.html">Careers</a>
+                <a class="nav-link" href="careers.html">Kariera</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="request.html">Request</a>
+                <a class="nav-link" href="request.html">Zlecenie</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Contacts">Contact Us</a>
+                <a class="nav-link" href="#Contacts">Kontakt</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link-lang active-lang" href="request.html">ENG</a>
-                <a class="nav-link-lang" href="PL/request.html">PL</a>
+                <a class="nav-link-lang" href="../about.html">ENG</a>
+                <a class="nav-link-lang active-lang" href="about.html">PL</a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
+      <div class="about">
+        <h1 class="about-title">O nas</h1>
+        <p class="about-text">
+          ASTARMEN jest firmą opartą na praktycznym doświadczeniu i wiedzy w
+          dziedzinie międzynarodowego transportu drogowego, ze szczególnym
+          uwzględnieniem terytorium krajów europejskich i azjatyckich
+        </p>
+      </div>
     </header>
-    <main class="main">
-      <section class="request">
-        <div class="request-content">
-          <h1 class="request-title">Have more questions ?</h1>
-          <p class="request-text">
-            The professional team of our managers will help you to chose the
-            optimal route for the transportation of your cargo and will
-            calculate the cost of transportation and delivery time.
+    <main>
+      <section class="about-us-content">
+        <article class="about-us-card">
+          <h4 class="card-name">01. Global</h4>
+          <h3 class="card-title">
+            Dystrybuujemy nasze usługi w Europie i na Bliskim Wschodzie.
+          </h3>
+          <p class="card-text">
+            Zapewniamy płynny łańcuch dostaw z wysokiej jakości systemami w
+            Europie i na Bliskim Wschodzie dzięki strategicznie zlokalizowanym
+            centrom transportowym, dystrybucyjnym i serwisowym.
           </p>
-        </div>
-        <div class="request-container">
-          <form
-            action="https://script.google.com/macros/s/AKfycbytFUItkCmV1AAgR4DR7Kd1_L5uSqBFpYL6VzGn8RlqDg-kKvQrqEDBbTmAK0yXog8i/exec"
-            method="POST"
-            class="request-form gform"
-          >
-            <div class="request-form-about">
-              <legend class="request-form-title">Request calculation</legend>
-              <input
-                type="text"
-                name="name"
-                placeholder="Full name *"
-                class="input"
-                required
-              />
-              <input
-                type="text"
-                name="phone"
-                placeholder="Phone number"
-                class="input"
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Email *"
-                class="input"
-                required
-              />
-              <input
-                type="text"
-                name="company"
-                placeholder="Company name *"
-                class="input"
-                required
-              />
-            </div>
-            <div class="request-form-address">
-              <div class="address-shiping">
-                <legend class="request-form-title">Shipping address</legend>
-                <input
-                  type="text"
-                  name="shipping-country"
-                  placeholder="Country *"
-                  class="input"
-                  required
-                />
-                <input
-                  type="text"
-                  name="shipping-city"
-                  placeholder="City / Postal code *"
-                  class="input"
-                  required
-                />
-              </div>
-              <div class="address-destination">
-                <legend class="request-form-title">Destination address</legend>
-                <input
-                  type="text"
-                  name="destination-country"
-                  placeholder="Country *"
-                  class="input"
-                  required
-                />
-                <input
-                  type="text"
-                  name="destination-city"
-                  placeholder="City / Postal code *"
-                  required
-                  class="input"
-                />
-              </div>
-            </div>
-            <div class="request-form-additionally">
-              <input
-                type="text"
-                name="freight"
-                placeholder="Freight *"
-                class="input"
-                required
-              />
-              <textarea
-                name="about-transportation"
-                placeholder="About transportation *"
-                class="input request-comment"
-                required
-              ></textarea>
-            </div>
-            <button class="btn request-btn" type="submit">Send Request</button>
-          </form>
-        </div>
-        <div class="thankyou-message">
-          <p class="thankyou-message-text">Thank you for feedback</p>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 500 500"
-            fill="#1c6030"
-            width="30px"
-          >
-            <path
-              class="st0"
-              d="M455.3,61.5C395.6,69.1,300.9,153.7,222,276c-6.1,9.4-11.9,18.8-17.4,28.1c0,0,0,0-0.1-0.1 c-0.1,0.1-0.1,0.2-0.2,0.3c-12.8-12.8-26.6-25.6-41.2-38.1c-6.8-5.8-13.6-11.4-20.3-16.9L40.2,314.2c46.9,22,87.8,48.2,119.6,75.3 c0-0.1,0.1-0.2,0.1-0.3c19.1,16.3,35,33,46.8,49.3c5.2-7.7,10.5-15.4,16-23.2c12-17.1,24.2-33.5,36.4-49.1c0,0,0.1,0.1,0.1,0.1 c81.4-104.5,162.3-173.5,200.6-170.6L455.3,61.5z"
-            ></path>
-
-            <path
-              class="st1"
-              d="M455.3,61.5C395.6,69.1,300.9,153.7,222,276c-6.1,9.4-11.9,18.8-17.4,28.1c0,0,0,0-0.1-0.1 c-0.1,0.1-0.1,0.2-0.2,0.3c-12.8-12.8-26.6-25.6-41.2-38.1c-6.8-5.8-13.6-11.4-20.3-16.9L40.2,314.2c46.9,22,87.8,48.2,119.6,75.3 c0-0.1,0.1-0.2,0.1-0.3c19.1,16.3,35,33,46.8,49.3c5.2-7.7,10.5-15.4,16-23.2c12-17.1,24.2-33.5,36.4-49.1c0,0,0.1,0.1,0.1,0.1 c81.4-104.5,162.3-173.5,200.6-170.6L455.3,61.5z"
-            ></path>
-          </svg>
-        </div>
+        </article>
+        <article class="about-us-card">
+          <h4 class="card-name">02. Wizja</h4>
+          <h3 class="card-title">Mamy wyjątkową filozofię i chronimy ją</h3>
+          <p class="card-text">
+            Nasza kultura kładzie nacisk na przekraczanie oczekiwań klientów i
+            wspieranie rozwoju kariery pracowników. Nasze środowisko nastawione
+            na sukces zachęca naszych pracowników do szybszej i cięższej pracy,
+            która jest lepiej wynagradzana w porównaniu do konkurencji.
+          </p>
+        </article>
+        <article class="about-us-card">
+          <h4 class="card-name">03. Misja</h4>
+          <h3 class="card-title">Każdy etap dostawy jest dla nas ważny</h3>
+          <p class="card-text">
+            Naszą rolą jest nadzorowanie całego procesu od początku do końca, w
+            tym zarządzanie zwrotami,dostarczanie niezbędnych usług i
+            informacji. Opracowujemy rozwiązania, które spełniają Twoje potrzeby
+            w zakresie kosztów i usług, wykorzystując naszą rozległą wiedzę i
+            doświadczenie.
+          </p>
+        </article>
+        <article class="about-us-card">
+          <h4 class="card-name">04. Nasze Wartości</h4>
+          <h3 class="card-title">Nasze podstawowe wartości i zasady</h3>
+          <p class="card-text">
+            Nasza firma kieruje się zestawem podstawowych wartości, w tym
+            otwartością, uczciwością i odpowiedzialnością. Zasady te kierują
+            nami we wszystkim, co robimy, zapewniając najwyższe standardy
+            etyczne w naszej działalności i wspierając partnerstwo oparte na
+            zaufaniu i szacunku.
+          </p>
+        </article>
+        <article class="about-us-card">
+          <h4 class="card-name">05. Innowacja</h4>
+          <h3 class="card-title">
+            Najnowocześniejsze innowacje i osiągnięcia technologiczne
+          </h3>
+          <p class="card-text">
+            Nasza kultura korporacyjna jest nastawiona na jak najpełniejsze
+            spełnianie oczekiwań każdego klienta, przy jednoczesnym tworzeniu
+            warunków do rozwoju kariery i samorealizacji naszych pracowników.
+            Nasza atmosfera sprzyja osiąganiu sukcesów, a nasi pracownicy
+            działają szybciej, pracują wydajniej i są lepiej wynagradzani niż
+            konkurenci.
+          </p>
+        </article>
+        <article class="about-us-card">
+          <h4 class="card-name">06. Partnerstwo</h4>
+          <h3 class="card-title">
+            Budowanie mocnych i trwałych relacji partnerskich
+          </h3>
+          <p class="card-text">
+            Naszym celem jest nawiązywanie trwałych i wzajemnie korzystnych
+            relacji partnerskich z naszymi klientami i dostawcami. Stawiając na
+            współpracę i przejrzystą komunikację, budujemy relacje, które
+            przetrwają próbę czasu i przyczynią się do wspólnego sukcesu
+          </p>
+        </article>
       </section>
     </main>
     <footer class="footer">
@@ -203,30 +163,29 @@
               ></iframe>
             </div>
             <div class="footer-information">
-              <h5 class="footer-section-title">Information</h5>
+              <h5 class="footer-section-title">Informacje</h5>
               <ul>
                 <li class="footer-list-item">
-                  <a class="footer-list-link" href="about.html">About us</a>
+                  <a class="footer-list-link" href="about.html">O nas</a>
                 </li>
                 <li class="footer-list-item">
-                  <a class="footer-list-link" href="services.html">Services</a>
+                  <a class="footer-list-link" href="services.html">Usługi</a>
                 </li>
                 <li class="footer-list-item">
-                  <a class="footer-list-link" href="careers.html">Careers</a>
+                  <a class="footer-list-link" href="careers.html">Kariera</a>
                 </li>
                 <li class="footer-list-item">
-                  <a class="footer-list-link" href="request.html">Request</a>
+                  <a class="footer-list-link" href="request.html">Zlecenie</a>
                 </li>
                 <li class="footer-list-item">
-                  <a class="footer-list-link" href="#Contacts">Contacts</a>
+                  <a class="footer-list-link" href="#Contacts">Kontakty</a>
                 </li>
               </ul>
             </div>
             <div class="footer-contacts">
-              <h5 class="footer-section-title">Contact us</h5>
+              <h5 class="footer-section-title">Skontaktuj się z nami</h5>
               <span class="footer-location"
-                >Odlewnicza Street 5,<br />
-                03-231 Warsaw</span
+                >Ulica Odlewnicza 5, <br />03-231 Warszawa</span
               >
               <span class="footer-location"
                 >Powstańców 97, <br />
@@ -408,7 +367,6 @@
         </div>
       </div>
     </footer>
-    <script src="burger.js"></script>
-    <script src="form-submission-handler.js"></script>
+    <script src="../burger.js"></script>
   </body>
 </html>
