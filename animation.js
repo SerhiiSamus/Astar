@@ -132,22 +132,35 @@ if (window.innerWidth > 800) {
   //     amount: 0.4,
   //   },
   // });
-  gsap.from('.map-svg > *', {
+  // gsap.from('.map-svg > *', {
+  //   scrollTrigger: {
+  //     trigger: '.about-section',
+  //     start: 'top-=30%',
+  //     end: 'center-=20%',
+  //   },
+  //   filter: 'blur(1px)',
+  //   // opacity: 0,
+  //   // scale: 0,
+  //   x: function () {
+  //     return Math.random() * 200 - 100; // Случайное значение в диапазоне от -100 до 100
+  //   },
+  //   y: function () {
+  //     return Math.random() * 200 - 100; // Случайное значение в диапазоне от -100 до 100
+  //   },
+  //   duration: 4,
+  // });
+  gsap.from('.about-img > *', {
     scrollTrigger: {
       trigger: '.about-section',
       start: 'top-=30%',
       end: 'center-=20%',
     },
-    filter: 'blur(1px)',
+    rotate: '720 deg',
     // opacity: 0,
     // scale: 0,
-    x: function () {
-      return Math.random() * 200 - 100; // Случайное значение в диапазоне от -100 до 100
-    },
-    y: function () {
-      return Math.random() * 200 - 100; // Случайное значение в диапазоне от -100 до 100
-    },
-    duration: 4,
+    xPercent: 500,
+    stagger: { amount: 2.7 },
+    duration: 1.7,
   });
   gsap.from('.about-info > :not(:last-child)', {
     scrollTrigger: {
@@ -277,6 +290,19 @@ if (window.innerWidth > 800) {
     xPercent: 100,
     delay: 4,
     duration: 1.8,
+  });
+  gsap.from('.about-img > *', {
+    scrollTrigger: {
+      trigger: '.about-section',
+      start: 'top-=30%',
+      end: 'center-=20%',
+    },
+    rotate: '720 deg',
+    // opacity: 0,
+    // scale: 0,
+    xPercent: 500,
+    stagger: { amount: 2.7 },
+    duration: 1.7,
   });
   // gsap.to('.svg-gob', {
   //   scrollTrigger: {

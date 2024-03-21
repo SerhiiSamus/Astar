@@ -415,14 +415,24 @@ h5 {
   width: 35%;
 }
 .about-img {
-  width: 50vw;
+  width: 65%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+
+  align-items: flex-start;
+  justify-content: space-evenly;
+  /* height: fit-content; */
   /* background-image: url(assets/img/map.jpg);
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat; */
+}
+.about-img-flag {
+  /* flex-basis: calc(50px); */
+  width: 20%;
+
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .map-svg {
   overflow: visible;
@@ -952,7 +962,14 @@ h5 {
 .modal-open .modal-bg {
   overflow: auto;
 }
-
+@media screen and (max-width: 1200px) {
+  /* .about-img {
+    height: auto;
+  } */
+  .about-img-flag {
+    width: 30%;
+  }
+}
 @media screen and (max-width: 879px) {
   .nav-link {
     font-size: 14px;
@@ -986,6 +1003,11 @@ h5 {
   }
   .about-img {
     width: 80vw;
+  }
+  .about-img-flag {
+    width: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .job-img {
     height: 45vw;
