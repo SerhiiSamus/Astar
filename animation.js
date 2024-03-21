@@ -158,7 +158,7 @@ if (window.innerWidth > 800) {
     rotate: '720 deg',
     // opacity: 0,
     // scale: 0,
-    xPercent: 500,
+    x: '100vw',
     stagger: { amount: 2.7 },
     duration: 1.7,
   });
@@ -300,7 +300,7 @@ if (window.innerWidth > 800) {
     rotate: '720 deg',
     // opacity: 0,
     // scale: 0,
-    xPercent: 500,
+    x: '100vw',
     stagger: { amount: 2.7 },
     duration: 1.7,
   });

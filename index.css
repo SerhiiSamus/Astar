@@ -430,7 +430,7 @@ h5 {
 .about-img-flag {
   /* flex-basis: calc(50px); */
   width: 20%;
-
+  max-width: 250px;
   padding-left: 40px;
   padding-right: 40px;
 }
