@@ -220,7 +220,7 @@ h5 {
   width: 100%;
   box-sizing: border-box;
   border: 1px solid;
-  font-size: 14px;
+  font-family: 'Prompt', sans-serif;
   line-height: 20px;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -234,6 +234,7 @@ h5 {
 .input::placeholder {
   color: #bdbdbd;
   font-size: 18px;
+  font-family: 'Prompt', sans-serif;
 }
 /* REQUEST SECTION */
 .request {

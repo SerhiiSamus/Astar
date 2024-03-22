@@ -367,7 +367,7 @@ h5 {
   width: 100%;
   box-sizing: border-box;
   border: 1px solid;
-  font-size: 14px;
+  font-family: 'Prompt', sans-serif;
   line-height: 20px;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -381,6 +381,7 @@ h5 {
 .input::placeholder {
   color: #bdbdbd;
   font-size: 18px;
+  font-family: 'Prompt', sans-serif;
 }
 .feedback-comment {
   resize: none;
@@ -388,7 +389,8 @@ h5 {
 }
 .feedback-comment::placeholder {
   color: #bdbdbd;
-  font-size: 22px;
+  font-size: 20px;
+  font-family: 'Prompt', sans-serif;
 }
 .modal-comment {
   min-height: 100px;
@@ -396,6 +398,7 @@ h5 {
 .modal-comment::placeholder {
   color: #bdbdbd;
   font-size: 22px;
+  font-family: 'Prompt', sans-serif;
 }
 .feedback-btn {
   margin-top: 15px;

@@ -636,7 +636,6 @@ h5 {
   width: 100%;
   box-sizing: border-box;
   border: 1px solid;
-  font-size: 14px;
   line-height: 20px;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -646,8 +645,10 @@ h5 {
   outline: none;
   color: #606060;
   font-size: 18px;
+  font-family: 'Prompt', sans-serif;
 }
 .input::placeholder {
+  font-family: 'Prompt', sans-serif;
   color: #bdbdbd;
   font-size: 18px;
 }
@@ -656,13 +657,15 @@ h5 {
   height: 90px;
 }
 .feedback-comment::placeholder {
+  font-family: 'Prompt', sans-serif;
   color: #bdbdbd;
-  font-size: 22px;
+  font-size: 20px;
 }
 .modal-comment {
   min-height: 100px;
 }
 .modal-comment::placeholder {
+  font-family: 'Prompt', sans-serif;
   color: #bdbdbd;
   font-size: 22px;
 }
