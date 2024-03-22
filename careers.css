@@ -278,10 +278,12 @@ h5 {
   background-color: #c02026;
 }
 .careers-content-descript {
-  color: #adadad;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.4;
+  text-align: center;
+  color: #8e8e8e;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.7;
+  letter-spacing: 1px;
 }
 .careers-img {
   width: 45%;
