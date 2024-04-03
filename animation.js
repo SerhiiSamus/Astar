@@ -15,7 +15,7 @@ if (window.innerWidth > 800) {
       scale: 1.5,
     })
     .set('.logo3', {
-      yPercent: -80,
+      yPercent: -35,
       xPercent: 200,
       scale: 1.5,
     })
