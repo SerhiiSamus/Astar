@@ -6,7 +6,7 @@ if (window.innerWidth > 800) {
   logo
     .set('.logo1', {
       xPercent: 1200,
-      yPercent: -500,
+      yPercent: -300,
       scale: 1.5,
     })
     .set('.logo2', {
@@ -20,7 +20,7 @@ if (window.innerWidth > 800) {
       scale: 1.5,
     })
     .set('.logo4', {
-      yPercent: 100,
+      yPercent: 60,
       xPercent: 50,
       scale: 1.5,
     })
